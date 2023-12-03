@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corso Web Developer - Epicode School</title>
+    <meta
+      name="description"
+      content="Da zero a Epicode con i corsi completi per diventare uno sviluppatore professionista in 3 mesi."
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" 
+      rel="stylesheet"
+    /> 
+  </head>
+  <!-- Legenda: tx= testo; portion=porzione orizzontale, inner=sezione interna; article=sezione testo scritto; el=elemento generico/oppure structure -->
+  <body>
+    <div id="wrapper">  <!-- Creo un contenitore entro cui centrre una colonna -->
+      <header class="wp-map"> <!-- Ex - Testata -->
+        <img src="./images/logo.png" alt="Logo Epicode" width="100%" />
+      </header>
+
+      <div class="wp-portion cmp-bg-shade-1"> <!-- Porzione orizzontale ripetibile + Sezione sfondo -->
+        <p class="tx-title cmp-txt-blue">Corso Web Developer</p> <!-- Titolo e sezione di testo azzurra, da ripetere successivamente -->
+        <p class="tx-subtitle cmp-txt-black"> <!-- Sottotitolo e sezione di testo nera, da ripetere -->
+          Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono
+          arricchiere il CV, tu pensa ad arricchire le tue competenze.
+        </p>
+
+        <div class="wp-inner"><button class="btn-press">PARTIAMO!</button></div>
+      </div>
+
+      <div class="wp-portion">
+        <div class="wp-inner"> <!-- Inserita nuova sezione interna, ulteriormente interna al wrapper -->
+          <p class="tx-maintitle cmp-txt-blue">Tutti ti cercheranno</p>
+        </div>
+        <p class="tx-subtitle cmp-txt-black">
+          Sono 30.000 in Italia le posizioni di developer scoperte, scegli
+          quella che ti stimola di più
+        </p>
+
+        <div class="wp-inner"> <!-- Ripetuta sezione interna -->
+          <p class="tx-maintitle cmp-txt-blue">Lavora dove vuoi</p>
+        </div>
+        <p class="tx-subtitle cmp-txt-black">
+          Lavora da casa, in riva al mare, in montagna
+        </p>
+      </div>
+
+      <div class="wp-portion">
+        <div class="wp-img-circle">
+          <img src="./images/notebook.jpg" alt="Computer" />
+        </div>
+      </div>
+
+      <div class="wp-portion">
+        <div class="wp-inner">
+          <p class="tx-maintitle cmp-txt-blue">Scegli il tuo ruolo</p>
+        </div>
+        <p class="tx-subtitle cmp-txt-black">
+          Potrai scegliere se essere Azienda, Freelance o Startup
+        </p>
+
+        <div class="wp-inner">
+          <p class="tx-maintitle cmp-txt-blue">Lavoro in libertà</p>
+        </div>
+        <p class="tx-subtitle cmp-txt-black">
+          Non serve lavorare in ufficio per essere creatori di prodotti digitali
+        </p>
+      </div>
+
+      <div class="wp-portion-mdm bg-clr-org">
+        <div class="wp-inner">
+          <p class="tx-title cmp-txt-white">Epicode garantisce</p>
+        </div>
+        <p class="tx-maindesc tx-itl cmp-txt-white">
+          "3 mesi intensivi di corso che cambieranno radicalmente la tua vita"
+        </p>
+        <div class="wp-inner">
+          <p class="tx-subtitle tx-itl cmp-txt-white">
+            Mario Rossi<br />
+            <span class="tx-undertitle">CEO, Epicode</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="wp-portion el-cnt">
+        <div class="wp-article">
+          <div class="wp-article-img">
+            <img src="./images/foto1.jpg" alt="Computer" />
+            <p class="tx-maintitle-lw cmp-txt-blue">Il tuo PC</p>
+
+            <p class="tx-subtitle-lw cmp-txt-black">
+              Se vuoi diventare developer è l'unico strumento di cui hai
+              bisogno.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wp-portion el-cnt">
+        <div class="wp-article">
+          <div class="wp-article-img">
+            <img src="./images/foto2.jpg" alt="Computer" />
+            <p class="tx-maintitle-lw cmp-txt-blue">Impara ora</p>
+
+            <p class="tx-subtitle-lw cmp-txt-black">
+              Impara da chi diventerai tra qualche anno e diventa una rockstar
+              come loro.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wp-portion el-cnt">
+        <div class="wp-article">
+          <div class="wp-article-img">
+            <img src="./images/foto3.jpg" alt="Computer" />
+            <p class="tx-maintitle-lw cmp-txt-blue">Lavora subito</p>
+
+            <p class="tx-subtitle-lw cmp-txt-black">
+              Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wp-portion el-cnt">
+        <footer class="ft-bottom">
+          <p class="tx-title cmp-txt-white">Contattaci</p>
+          <p class="tx-contact"><i class="fa-solid fa-phone cmp-txt-white"></i> <u>(+39)11223456</u> </p> <!-- Inserite le icone in un campo colore presente, per evitare di avere la stringa lunga 200mt -->
+          <p class="tx-contact"><i class="fa-regular fa-envelope cmp-txt-white"></i><u> info@epicode.school</u></p>
+          <p class="tx-contact"><i class="fa-solid fa-location-dot cmp-txt-white"></i> Via Appia 1 - 00100 Roma(RM)</p>
+          <p class="tx-contact">______________________________</p><br>
+          <p class="tx-contact">© 2021, Immagini di <u>Pixabay</p>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1f8f70cf56.js" 
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script per le icone, fontawesome -->
+  </body>
+</html>

@@ -1,0 +1,206 @@
+/* Your styles here */
+body { 
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 25%;
+    height: 100%;
+}
+
+.wp-testata, .wp-sezioneinterna {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 150px;
+}
+
+.el-cnt {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-testata {
+    background-color: black;
+}
+
+.wp-testata img {
+    object-fit: contain;
+    object-position: center;
+    width: 35%;
+}
+
+.wp-sezione, .wp-sezione-mdm {
+    width: 100%;
+
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.wp-sezione {
+    height: 500px;
+}
+
+.wp-sezione-mdm {
+    height: 350px;
+}
+
+.tx-maintitle, .tx-sectitle, .tx-subtitle, .tx-maindesc, .tx-undertitle, .tx-maintitle-lw, .tx-subtitle-lw {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.tx-title {
+    width: 100%;
+    height: 100px;
+
+    text-align: center;
+    font-family: 'Montserrat';
+
+    font-weight: 900;
+    font-size: 2.8em;
+
+    padding: 80px 0px 20px 0px;
+}
+
+.tx-maintitle {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.7em;
+}
+
+.tx-maintitle-lw {
+    margin: 20px 0px 20px 0px;
+
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.tx-subtitle-lw {
+    margin: 20px 0px 20px 0px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.tx-sectitle {
+    font-size: 2.5em;
+}
+
+.tx-subtitle {
+    font-size: 1.7em;
+    line-height: 1.5;
+    font-style: normal !important;
+}
+
+.tx-undertitle {
+    font-size: 0.7em !important;
+}
+
+.btn-press {
+    background-color: #f04c2f;
+    height: 60px;
+    width: 170px;
+    color: white;
+
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+
+    border: 0;
+    border-radius: 5px;
+}
+
+.cmp-bg-shade-1 {
+    background-image: url('/Esercizio/images/banner.jpg');
+}
+
+.wp-img-circle {
+    width: 100%;
+    height: 100%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-img-circle img {
+    width: 80%;
+    height: 80%;
+
+    border-radius: 50%;
+}
+
+.bg-clr-org {
+    background-color: #e22d0e;
+}
+
+.cmp-txt-blue {
+    color: #25a2c3;
+}
+
+.cmp-txt-black {
+    color: #393d41;
+}
+
+.cmp-txt-white {
+    color: white;
+}
+
+.tx-itl {
+    font-style: italic;
+}
+
+.tx-maindesc {
+    font-size: 1.5em;
+}
+
+.wp-article {
+    width: 90%;
+    height: 90%;
+
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+}
+
+.wp-article-img {
+    width: 100%;
+    height: 60%;
+}
+
+.wp-article-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #dee1e3;
+}
+
+.ft-bottom {
+    width: 100%;
+    height: 85%;
+    margin-top: 15%;
+
+    background-color: #25a2c3;
+}
+
+.tx-contact {
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 1.4em;
+    line-height: 1.5em;
+    font-weight: normal;
+}
